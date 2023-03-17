@@ -2,11 +2,59 @@
 @font-face {
     font-family: 'Passion One';
     src: url(/exercicios/desafio012/fontes/Passion_One/PassionOne-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
     font-family: 'Sriracha';
     src: url(/exercicios/desafio012/fontes/Sriracha/Sriracha-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    height: 270px;
+    position: relative;
+}
+h1{
+    font-family: 'Passion One';
+    color: white;
+    font-size: 135px;
+    position: absolute;
+    left: 285px;
+    top: 50px;
+}
+.subtitulo{
+    color: white;
+    font-family: Verdana,  Tahoma, sans-serif;
+    padding-top: 200px;
+    text-decoration: none;    
+}
+#sub{
+    padding-left: 599px;
+}
+div > a:hover{
+    text-decoration: underline;
 }
 p{
     font-family: 'Sriracha';
+    font-size: 47px;
+    padding-bottom: 100px;
 }
+main p{
+    padding-left: 30px;
+    padding-top: 70px;
+    line-height: 95px;
+    
+}
+#foto01{
+    background-image: ;
+}
+body{
+    background-color: white;
+}
+

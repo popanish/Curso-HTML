@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Passion One';
+    src: url(/exercicios/desafio012/fontes/Passion_One/PassionOne-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url(/exercicios/desafio012/fontes/Sriracha/Sriracha-Regular.ttf) format('truetype');
+}
+p{
+    font-family: 'Sriracha';
+}

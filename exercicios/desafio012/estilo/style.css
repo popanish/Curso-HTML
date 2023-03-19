@@ -17,38 +17,44 @@
 }
 header{
     background-color: black;
-    height: 270px;
-    position: relative;
+   height: 20vw;
+   min-height: 200px;
+   
+    /*position: relative;*/
+    
+    
 }
 h1{
     font-family: 'Passion One';
     color: white;
-    font-size: 135px;
-    position: absolute;
-    left: 285px;
-    top: 50px;
+    font-size: 10vw;
+    text-align: center;
+    padding: 59px 0px 0px 0px;
+    /*position: absolute;
+   /* left: 285px;
+    top: 50px;*/
+    
 }
 .subtitulo{
     color: white;
     font-family: Verdana,  Tahoma, sans-serif;
-    padding-top: 200px;
-    text-decoration: none;    
+    text-decoration: none; 
+    text-align: center;
+
 }
-#sub{
-    padding-left: 599px;
-}
+
 div > a:hover{
     text-decoration: underline;
 }
  main p{
     font-family: 'Sriracha';
-    font-size: 47px;
-    padding-bottom: 100px;
-}
-main p{
+    font-size: 3.5vw;
+    line-height: 7vw;
+    
+    padding-bottom: 65px;
     padding-left: 30px;
-    padding-top: 70px;
-    line-height: 95px;
+    padding-top: 65px;
+    
 }
 article > p{
     color: white;
@@ -76,7 +82,7 @@ article > p{
 }
 #fundo02{
     display: inline-block;
-    background-color: #353b27d5;
+    background-color: #353b27e1;
     margin:  70px 30px;
     padding:  10px 5px;
     

@@ -47,18 +47,33 @@ section{
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
+section > p{
+    padding-bottom: 2em;
+}
+#img01{
+    background-image: url(/exercicios/desafio012/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+#img02{
+    background-image: url(/exercicios/desafio012/imagens/background002.jpg);
+    background-size: cover;
+}
 .normal{
     background-color: white;
     color: black;
 }
 .imagem{
-    background-color: rgb(141, 137, 137);
+    background-color: rgb(0, 0, 0);
     color: white;
+    box-shadow: inset 5px 5px 12px 0px rgba(0, 0, 0, 0.527);
+    background-attachment: fixed;
 }
 .imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 0px black;
 }
 footer{
     background-color: black;
